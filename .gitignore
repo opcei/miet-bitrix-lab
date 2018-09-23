@@ -1,0 +1,16 @@
+.DS_Store
+/.idea
+
+/bitrix
+!/bitrix/.settings.php
+!/bitrix/php_interface
+/images
+/upload
+
+*.tar
+*.tar.*
+*.tmp
+*.bak
+*.log
+*log*.txt
+.lock

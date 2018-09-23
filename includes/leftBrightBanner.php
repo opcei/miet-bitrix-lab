@@ -1,0 +1,1 @@
+<a href="/"><img src="/bitrix/templates/bright/images/tmp/banner1c.jpg" width="226px" height="273px" alt="1С: Бухгалтерия предприятия 8 ПРОФ"/></a>

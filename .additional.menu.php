@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Прайс-лист", 
+		"/upload/primer.xls", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Заявка", 
+		"request/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Календарь", 
+		"/calend/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Другие сайты 1С", 
+		"/othersite/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

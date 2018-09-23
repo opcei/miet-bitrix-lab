@@ -1,0 +1,1 @@
+<img src="/bitrix/templates/light/images/image_header.jpg" width="324px" height="180px" alt="" />

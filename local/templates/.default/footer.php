@@ -1,5 +1,7 @@
 <?php
 ?>
+<?if(!defined("B_PROLOG_INCLUDED")||B_PROLOG_INCLUDED!==true)die(); ?>
+
 </div>
 </div>
 <!-- end main content -->
@@ -55,7 +57,7 @@
                     <table cellpadding="0" cellspacing="0">
                       <tr>
                         <td><input name="" class="field"/></td>
-                        <td><input type="image" name="go" src="images/newsletter-input-button.png" alt="Go" class="form-imagebutton" /></td>
+                        <td><input type="image" name="go" src="<?=SITE_TEMPLATE_PATH;?>/images/newsletter-input-button.png" alt="Go" class="form-imagebutton" /></td>
                       </tr>
 
                     </table>
@@ -73,14 +75,14 @@
 <div class="small-footer">
     <div class="containit">
 
-       <div class="copy">Copyright &copy; 2010 <a href="http://www.spinform.ro">Bogdan Rosu</a>. All rights reserved.  Template on sale at: <a href="http://themeforest.net/user/bogdanspn/portfolio?ref=bogdanspn">Themeforest</a>.</div>
+       <div class="copy">Copyright &copy; <?=date('Y');?> <a href="http://www.spinform.ro">Bogdan Rosu</a>. All rights reserved.  Template on sale at: <a href="http://themeforest.net/user/bogdanspn/portfolio?ref=bogdanspn">Themeforest</a>.</div>
        <div class="social">
 
            <ul>
-                <li><a href="#"><img src="images/icons/icon-twitter.png" width="26" height="27" alt="" class="vm"/>Twitter</a></li>
-                <li><a href="#"><img src="images/icons/icon-facebook.png" width="26" height="25" alt="" class="vm"/>Facebook</a></li>
-                <li><a href="#"><img src="images/icons/icon-linkedin.png" width="26" height="26" alt="" class="vm"/>LinkedIn</a></li>
-                <li><a href="#"><img src="images/icons/icon-rss.png" width="26" height="25" alt="" class="vm"/>Blog RSS</a></li>
+                <li><a href="#"><img src="<?=SITE_TEMPLATE_PATH;?>/images/icons/icon-twitter.png" width="26" height="27" alt="" class="vm"/>Twitter</a></li>
+                <li><a href="#"><img src="<?=SITE_TEMPLATE_PATH;?>/images/icons/icon-facebook.png" width="26" height="25" alt="" class="vm"/>Facebook</a></li>
+                <li><a href="#"><img src="<?=SITE_TEMPLATE_PATH;?>/images/icons/icon-linkedin.png" width="26" height="26" alt="" class="vm"/>LinkedIn</a></li>
+                <li><a href="#"><img src="<?=SITE_TEMPLATE_PATH;?>/images/icons/icon-rss.png" width="26" height="25" alt="" class="vm"/>Blog RSS</a></li>
            </ul>
        </div>
 
